@@ -1,1 +1,6 @@
-# PI_2
+## Projeto integrador II
+- Enzo
+- Gabriel
+- Renan (bebezinho)
+- Renan
+- Vitor
