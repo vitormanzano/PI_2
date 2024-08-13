@@ -1,6 +1,6 @@
 ## Projeto integrador II
 - Enzo
 - Gabriel
-- Renan (bebezinho)
-- Renan
+- Renan M
+- Renan R
 - Vitor > 24014721
