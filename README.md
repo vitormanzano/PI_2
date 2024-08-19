@@ -3,4 +3,4 @@
 - Gabriel > 
 - Renan M > 
 - Renan R > 
-- Vitor > 24014721
+- Vitor Manzano > 24014721
