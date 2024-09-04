@@ -1,0 +1,12 @@
+{
+  "name": "pi_2",
+  "version": "1.0.0",
+  "description": "- Enzo > 24013755\r - Gabriel > 240122009\r - Renan M > 24006902\r - Renan R > 24015116\r - Vitor Manzano > 24014721",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
