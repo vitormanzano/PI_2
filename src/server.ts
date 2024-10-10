@@ -23,16 +23,16 @@ function CadastrarConta(conta:Conta):number {
 }
 
 function VerificarConta(email:string, senha:string): boolean {
-    let tamanho = contas.length;
+    
     let verificador:boolean = false;
-
-    for (let i=0;i<tamanho;i++){
-        if(email == contas[i].email && senha == contas[i].senha
-
-        ) verificador = true
-
-    }
+    const Account = contas.find(a=>{
+        if(a.email === email && a.senha === senha){
+            verificador= true;
+            return;
+        }
+    });
     return verificador;
+
     
 }
 
@@ -84,20 +84,6 @@ route.put('/SignIn',
     }
 
 )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 app.use(route)
