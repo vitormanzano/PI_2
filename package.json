@@ -1,18 +1,26 @@
 {
-  "name": "pi_2",
+  "name": "express-template",
   "version": "1.0.0",
-  "description": "- Enzo > 24013755\r - Gabriel > 240122009\r - Renan M > 24006902\r - Renan R > 24015116\r - Vitor Manzano > 24014721",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node ./build/src/server.js",
+    "dev": "nodemon src/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.0"
-  },
+  "description": "",
   "devDependencies": {
-    "@types/express": "^5.0.0"
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "@types/oracledb": "^6.5.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "oracledb": "^6.6.0"
   }
 }
